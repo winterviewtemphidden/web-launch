@@ -24,4 +24,5 @@
 
 body {
     font-family: "Cerebri-Sans-Medium";
+    overflow-x: hidden;
 }
