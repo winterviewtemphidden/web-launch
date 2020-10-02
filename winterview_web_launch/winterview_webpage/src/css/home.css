@@ -1,0 +1,33 @@
+#home {
+    text-align: center;
+    background-image: url('../WebAssets/Images/Backgrounds/homePageBG.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+}
+
+.logo {
+    width: 35%;
+    height: 160px;
+    vertical-align: middle;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.info p {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 35px;
+}
+
+footer {
+    color: white;
+    font-size: 25px;
+    padding-top: 50px;
+    margin-left: 30px;
+}
