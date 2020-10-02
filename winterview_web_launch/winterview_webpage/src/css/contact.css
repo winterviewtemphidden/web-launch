@@ -1,0 +1,50 @@
+.contact {
+    position: relative;
+    float: right;
+    margin-right: 20%;
+    margin-top: 2.8%;
+}
+
+.heading {
+    font-size: 35px;
+    font-weight: bold;
+    padding: none;
+    text-align: center;
+}
+
+.email {
+    font-family: "Cerebri-Sans-Light";
+    font-size: 25px;
+    padding: none;
+    text-align: center;
+    color: gray;
+}
+
+.top {
+    padding: 30px;
+}
+
+.top .billing {
+    margin-right: 100px;
+}
+
+.bottom {
+    display: inline-block;
+    padding: 40px 25px 0;
+}
+
+.top-section .top {
+   text-align: center;
+   margin-left: 110px;
+}
+
+.bottom-row {
+    transform: translate(-32px);
+    padding-bottom: 50px;
+}
+
+.footer {
+    transform: translate(-25px);
+}
+
+
