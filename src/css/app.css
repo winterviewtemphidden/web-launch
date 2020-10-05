@@ -22,6 +22,12 @@
     font-weight: 300;
 }
 
+@font-face {
+    font-family: "Cerebi-Sans-Book";
+    src: url(../../src/WebAssets/Fonts/CerebriSans/CerebriSans-Book.ttf);
+    font-weight: normal;
+}
+
 body {
     font-family: "Cerebri-Sans-Medium";
     overflow-x: hidden;

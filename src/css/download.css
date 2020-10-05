@@ -1,6 +1,6 @@
 .download {
     width: 80%;
-    margin-left: 30%;
+    margin-left: 27%;
     position: absolute;
     bottom: 0;
 }
@@ -13,49 +13,59 @@
 .logoIcons img {
     width: 40px;
     flex-direction: row;
-    padding-right: 400px;
-    padding-bottom: 70px;
-}
-
-.icons.logoIcons {
-    margin-top: 20px;
+    padding-right: 360px;
+    padding-bottom: 75px;
 }
 
 .icons.appImages {
-    padding-bottom: 70px;
+    padding-bottom: 75px;
 }
 
 .appImages img {
     height: 200px;
     width: 200px;
-    margin-right: 240px;
+    margin-right: 200px;
 }
 
 .icons .shadow img{
     box-shadow: 0 0 4px -2px #474447;
 }
 
-.icons .versions {
-    width: 40%;
+.versionDiv {
+    width: 60%;
+    margin-right: 265px;
 }
 
+.middle {
+    transform: translate(8px);
+    margin-right: 63px;
+}
 
-.versionDiv {
-    padding-right: 240px;
+.middle h4 {
+    transform: translate(-60px, -28px);
+}
+
+.end {
+    transform: translate(-42px);
+}
+
+.end h4 {
+    transform: translate(-59px, -28px);
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
+    margin-left: 5px;
 }
 
 h4, .subheader {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     text-align: center;
     font-family: "Cerebri-Sans-Light";
     color: gray;
-    transform: translate(-40px, -30px);
+    transform: translate(-62px, -30px);
     padding-bottom: 25px;
 }
 
@@ -64,5 +74,5 @@ h4, .subheader {
 }
 
 .downloadFooter {
-    transform: translate(-130px, -50px);
+    transform: translate(-105px, -50px);
 }

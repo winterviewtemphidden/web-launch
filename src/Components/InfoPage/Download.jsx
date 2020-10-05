@@ -43,8 +43,12 @@ class Download extends React.Component {
             <a href = "http://winterview.ca/iOS" target = "_blank" className = "downloadLink">
             <Version header = 'Download Link' subheader = 'Version 1.0.2'/>
             </a>
+            <div class = "middle">
             <Version header = 'Coming Soon' subheader = 'Stay tuned...'/>
+            </div>
+            <div class = "end">
             <Version header = 'Coming Soon' subheader = 'Stay tuned...'/>
+            </div>
         </div>
         <div className = "downloadFooter">
         <Footer/>
