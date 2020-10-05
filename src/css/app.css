@@ -1,0 +1,28 @@
+.footer {
+    text-align: center;
+    color: #dee3e3;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: "Cerebri-Sans-Bold";
+    src: url(../../src/WebAssets/Fonts/CerebriSans/CerebriSans-Heavy.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Cerebri-Sans-Medium";
+    src: url(../../src/WebAssets/Fonts/CerebriSans/CerebriSans-Medium.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Cerebri-Sans-Light";
+    src: url(../../src/WebAssets/Fonts/CerebriSans/CerebriSans-Light.ttf);
+    font-weight: 300;
+}
+
+body {
+    font-family: "Cerebri-Sans-Medium";
+    overflow-x: hidden;
+}
