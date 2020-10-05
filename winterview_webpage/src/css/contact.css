@@ -3,6 +3,7 @@
     float: right;
     margin-right: 20%;
     margin-top: 2.8%;
+    overflow-y: none;
 }
 
 .heading {
