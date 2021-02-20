@@ -40,15 +40,11 @@ class Download extends React.Component {
             <Image src = {windowsImage} curved = 'true'/> 
         </div>
         <div className = "icons versions">
-            <a href = "http://winterview.ca/iOS" target = "_blank" className = "downloadLink">
-            <Version header = 'Download Link' subheader = 'Version 1.0.2'/>
+            <a href = "http://winterview.ca/iOS" target = "_blank" className = "downloadLink subheader">
+            <Version header = 'Download Link' subheader = 'Version 1.0.3'/>
             </a>
-            <div class = "middle">
-            <Version header = 'Coming Soon' subheader = 'Stay tuned...'/>
-            </div>
-            <div class = "end">
-            <Version header = 'Coming Soon' subheader = 'Stay tuned...'/>
-            </div>
+            <Version header = 'Coming Soon' subheader = 'Stay tuned...' className = "downloadLink subheader"/>
+            <Version header = 'Coming Soon' subheader = 'Stay tuned...' className = "downloadLink subheader"/>
         </div>
         <div className = "downloadFooter">
         <Footer/>
