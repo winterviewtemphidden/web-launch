@@ -12,11 +12,9 @@ import '../../css/sidebar.css';
 
 class ScreenshotPage extends React.Component {
     componentDidMount() {
-        document.getElementById('sidebar').style.height = '190vh';
         document.getElementsByClassName('info_tag')[0].style.color = "#11d44b";
     }
     componentWillUnmount() {
-        document.getElementById('sidebar').style.height = '100vh';
         document.getElementsByClassName('info_tag')[0].style.color = "white";
     }
     render() {
