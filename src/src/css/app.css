@@ -1,0 +1,48 @@
+::-webkit-scrollbar {width: 3px;}
+::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);}
+::-webkit-scrollbar-thumb {background: rgba(0,0,0,0.8);}
+::-webkit-scrollbar-thumb:window-inactive {background: rgba(0,0,0,0.8);}
+
+.footer {
+    text-align: center;
+    color: #dee3e3;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: "Cerebri-Sans-Bold";
+    src: url(../../src/WebAssets/Fonts/CerebriSans/CerebriSans-Heavy.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Cerebri-Sans-Medium";
+    src: url(../../src/WebAssets/Fonts/CerebriSans/CerebriSans-Medium.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Cerebri-Sans-Light";
+    src: url(../../src/WebAssets/Fonts/CerebriSans/CerebriSans-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Cerebi-Sans-Book";
+    src: url(../../src/WebAssets/Fonts/CerebriSans/CerebriSans-Book.ttf);
+    font-weight: normal;
+}
+
+body {
+    font-family: "Cerebri-Sans-Medium";
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
